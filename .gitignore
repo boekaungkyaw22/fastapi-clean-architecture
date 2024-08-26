@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.eggs/
+
+# Environment variables
+.env
+
+# Virtualenv
+.venv/
+venv/
+ENV/
+env/
+venv.bak/
+
+# Pytest
+.cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Docker
+**/Dockerfile
+**/docker-compose.yml
+**/docker-compose.override.yml
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Database
+*.db
+*.sqlite3
+
+# Alembic
+migrations/versions/*.pyc
+
+# Logs
+*.log
+
+# IDEs
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+
+# pytest
+.pytest_cache/
+
+
+**/requirements.txt
